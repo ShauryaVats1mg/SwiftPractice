@@ -6,6 +6,7 @@
         <page name='Protocols'/>
         <page name='Mutating'/>
         <page name='Closures'/>
-        <page name='Access Specifier'/>
+        <page name='Access Control'/>
+        <page name='Final Keyword'/>
     </pages>
 </playground>
