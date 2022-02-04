@@ -8,5 +8,6 @@
         <page name='Closures'/>
         <page name='Access Control'/>
         <page name='Final Keyword'/>
+        <page name='Defer Keyword'/>
     </pages>
 </playground>
