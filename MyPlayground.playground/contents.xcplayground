@@ -10,6 +10,7 @@
         <page name='Final Keyword'/>
         <page name='Defer Keyword'/>
         <page name='Nil-Coalescing'/>
-        <page name='NSOperationQueue'/>
+        <page name='OperationQueue'/>
+        <page name='URL Session'/>
     </pages>
 </playground>
