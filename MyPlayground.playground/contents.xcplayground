@@ -12,5 +12,6 @@
         <page name='Nil-Coalescing'/>
         <page name='OperationQueue'/>
         <page name='URL Session'/>
+        <page name='NSNotification'/>
     </pages>
 </playground>
