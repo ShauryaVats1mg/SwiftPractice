@@ -13,5 +13,9 @@
         <page name='OperationQueue'/>
         <page name='URL Session'/>
         <page name='NS Notifications'/>
+        <page name='Synchronous DIspatch Queue'/>
+        <page name='Asynchronous Dispatch Queue'/>
+        <page name='Dispatch Group'/>
+        <page name='Dispatch Semaphore'/>
     </pages>
 </playground>

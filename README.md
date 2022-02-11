@@ -11,4 +11,8 @@ Defer Keyword,
 Nil Coalescing,
 Operation Queue,
 URL Session,
-NS Notification
+NS Notification,
+Synchronous Dispatch Queue,
+Asynchronous Dispatch Queue,
+Dispatch Group,
+Dispatch Semaphore
