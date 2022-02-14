@@ -17,5 +17,6 @@
         <page name='Asynchronous Dispatch Queue'/>
         <page name='Dispatch Group'/>
         <page name='Dispatch Semaphore'/>
+        <page name='QoS'/>
     </pages>
 </playground>

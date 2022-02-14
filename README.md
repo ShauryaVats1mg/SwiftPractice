@@ -15,4 +15,5 @@ NS Notification,
 Synchronous Dispatch Queue,
 Asynchronous Dispatch Queue,
 Dispatch Group,
-Dispatch Semaphore
+Dispatch Semaphore,
+QoS
