@@ -18,5 +18,6 @@
         <page name='Dispatch Group'/>
         <page name='Dispatch Semaphore'/>
         <page name='QoS'/>
+        <page name='Avoid Race Condition'/>
     </pages>
 </playground>
