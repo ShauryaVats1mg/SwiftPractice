@@ -17,4 +17,4 @@ Asynchronous Dispatch Queue,
 Dispatch Group,
 Dispatch Semaphore,
 QoS,
-Avoiding Race Conditions with Dispatch Queues
+Avoiding Race Condition and Deadlock with Dispatch Queues
