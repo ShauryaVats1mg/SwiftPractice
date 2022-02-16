@@ -19,5 +19,6 @@
         <page name='Dispatch Semaphore'/>
         <page name='QoS'/>
         <page name='Avoid Race Condition and Deadlock'/>
+        <page name='Capture List'/>
     </pages>
 </playground>
