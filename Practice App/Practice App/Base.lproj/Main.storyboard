@@ -28,7 +28,7 @@
                                     <fontDescription key="titleFontDescription" type="system" pointSize="20"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="l0T-0M-VHu"/>
+                                    <action selector="notificationButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LCO-tc-G1f"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tKR-ID-xL3" userLabel="Go to purple screen">
@@ -52,7 +52,7 @@
                                     <fontDescription key="titleFontDescription" type="system" pointSize="20"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="NhE-DG-wuw" kind="show" id="OeK-RV-qh8"/>
+                                    <action selector="greenButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BNa-uP-qvR"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -68,9 +68,6 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="7mV-g7-uuZ"/>
-                    <connections>
-                        <outlet property="notificationButton" destination="06u-My-doL" id="gs5-FZ-gFd"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -93,7 +90,7 @@
                                     <fontDescription key="titleFontDescription" type="system" pointSize="20"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="NhE-DG-wuw" kind="show" id="hP0-5J-E2k"/>
+                                    <action selector="greenButtonPressed:" destination="liK-OT-afF" eventType="touchUpInside" id="K95-cX-wCe"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -113,12 +110,29 @@
         <!--Green View Controller-->
         <scene sceneID="x0C-NM-SmJ">
             <objects>
-                <viewController id="NhE-DG-wuw" customClass="GreenViewController" customModule="Practice_App" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="GreenViewController" id="NhE-DG-wuw" customClass="GreenViewController" customModule="Practice_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Cf4-Jq-LzY">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SeX-tC-kEu">
+                                <rect key="frame" x="132.5" y="426.5" width="149.5" height="43"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Back Button">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="24"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="backButton:" destination="NhE-DG-wuw" eventType="touchUpInside" id="vow-vM-FxB"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="hno-Ie-Py4"/>
                         <color key="backgroundColor" systemColor="systemGreenColor"/>
+                        <constraints>
+                            <constraint firstItem="SeX-tC-kEu" firstAttribute="centerY" secondItem="Cf4-Jq-LzY" secondAttribute="centerY" id="5aF-Fp-3D6"/>
+                            <constraint firstItem="SeX-tC-kEu" firstAttribute="centerX" secondItem="Cf4-Jq-LzY" secondAttribute="centerX" id="JMc-gw-S8W"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="S7v-nL-Azo"/>
                 </viewController>
@@ -146,9 +160,6 @@
             <point key="canvasLocation" x="28.985507246376812" y="65.625"/>
         </scene>
     </scenes>
-    <inferredMetricsTieBreakers>
-        <segue reference="hP0-5J-E2k"/>
-    </inferredMetricsTieBreakers>
     <resources>
         <systemColor name="systemBlueColor">
             <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

@@ -15,8 +15,14 @@ class BlueViewController: UIViewController {
 
     @IBOutlet weak var notificationButton: UIButton!
     
-    @IBAction func buttonPressed(_ sender: Any){
+    @IBAction func notificationButtonPressed(_ sender: Any){
         NotificationCenter.default.post(name: .notificationName, object: nil)
+    }
+    
+    @IBAction func greenButtonPressed(_ sender: Any){
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let viewController = storyboard.instantiateViewController(withIdentifier: "GreenViewController") as! GreenViewController
+        navigationController?.pushViewController(viewController, animated: true)
     }
     
     @objc func notificationFunc(notification: NSNotification){

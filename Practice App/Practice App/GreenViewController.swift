@@ -9,6 +9,10 @@ import UIKit
 
 class GreenViewController: UIViewController {
 
+    @IBAction func backButton(_ sender: Any){
+        navigationController?.popViewController(animated: true)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
