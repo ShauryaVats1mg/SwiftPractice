@@ -13,6 +13,12 @@ class GreenViewController: UIViewController {
         navigationController?.popViewController(animated: true)
     }
     
+    @IBAction func presentScreenButton(_ sender: Any){
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let viewController = storyboard.instantiateViewController(withIdentifier: "PresentViewController") as! PresentViewController
+        navigationController?.present(viewController, animated: true, completion: nil)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
