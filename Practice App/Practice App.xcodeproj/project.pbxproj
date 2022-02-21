@@ -16,6 +16,8 @@
 		D9FBA0DC27BD0B63009DD0E2 /* PurpleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FBA0DB27BD0B63009DD0E2 /* PurpleViewController.swift */; };
 		D9FBA0DE27BD1996009DD0E2 /* GreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FBA0DD27BD1996009DD0E2 /* GreenViewController.swift */; };
 		D9FBA0E027BE4826009DD0E2 /* PresentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FBA0DF27BE4826009DD0E2 /* PresentViewController.swift */; };
+		D9FBA0E227BFB410009DD0E2 /* FirstScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FBA0E127BFB410009DD0E2 /* FirstScreenViewController.swift */; };
+		D9FBA0E427BFB425009DD0E2 /* SecondScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FBA0E327BFB425009DD0E2 /* SecondScreenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		D9FBA0DB27BD0B63009DD0E2 /* PurpleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurpleViewController.swift; sourceTree = "<group>"; };
 		D9FBA0DD27BD1996009DD0E2 /* GreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenViewController.swift; sourceTree = "<group>"; };
 		D9FBA0DF27BE4826009DD0E2 /* PresentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentViewController.swift; sourceTree = "<group>"; };
+		D9FBA0E127BFB410009DD0E2 /* FirstScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstScreenViewController.swift; sourceTree = "<group>"; };
+		D9FBA0E327BFB425009DD0E2 /* SecondScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScreenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +69,8 @@
 				D9FBA0C527BCE351009DD0E2 /* AppDelegate.swift */,
 				D9FBA0C927BCE351009DD0E2 /* ViewController.swift */,
 				D9FBA0CB27BCE351009DD0E2 /* Main.storyboard */,
+				D9FBA0E127BFB410009DD0E2 /* FirstScreenViewController.swift */,
+				D9FBA0E327BFB425009DD0E2 /* SecondScreenViewController.swift */,
 				D9FBA0DF27BE4826009DD0E2 /* PresentViewController.swift */,
 				D9FBA0DD27BD1996009DD0E2 /* GreenViewController.swift */,
 				D9FBA0D927BD0B4D009DD0E2 /* BlueViewController.swift */,
@@ -151,6 +157,8 @@
 				D9FBA0CA27BCE351009DD0E2 /* ViewController.swift in Sources */,
 				D9FBA0E027BE4826009DD0E2 /* PresentViewController.swift in Sources */,
 				D9FBA0DA27BD0B4D009DD0E2 /* BlueViewController.swift in Sources */,
+				D9FBA0E427BFB425009DD0E2 /* SecondScreenViewController.swift in Sources */,
+				D9FBA0E227BFB410009DD0E2 /* FirstScreenViewController.swift in Sources */,
 				D9FBA0C627BCE351009DD0E2 /* AppDelegate.swift in Sources */,
 				D9FBA0DE27BD1996009DD0E2 /* GreenViewController.swift in Sources */,
 			);
